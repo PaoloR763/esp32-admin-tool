@@ -272,7 +272,7 @@ a [class*=" icon-"] {
 }
 .icon-stack .icon-stack-base {
   font-size: 2em;
-  *line-height: 1em;
+  * line-height: 1em;
 }
 /* Animated rotating icon */
 .icon-spin {
