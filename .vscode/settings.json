@@ -1,4 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
-    "idf.portWin": "COM4"
+    "idf.portWin": "COM4",
+    "files.associations": {
+        "cmath": "cpp"
+    }
 }

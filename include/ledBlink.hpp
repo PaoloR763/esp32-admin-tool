@@ -74,3 +74,17 @@ void setOffSingle(int _pin){
     digitalWrite(_pin,LOW);
 }
 
+
+//---------------------------------------------------
+// On/off led segun estados
+//---------------------------------------------
+
+void setOnOffSingle(int _pin, bool status){
+    if(status){
+        digitalWrite(_pin, HIGH);
+    }else{
+        digitalWrite(_pin,LOW);
+    }
+}
+
+
